@@ -1,11 +1,11 @@
 .wrapper-para{
-  padding: 2.5em 5em 5em 5em !important;
+  padding: 2em 5em 6em 5em!important;
   background-color: #347bff;
   color: white;
 }
 
 .wrapper-form{
-  padding: 5em !important;
+  padding: 2em 5em !important;
 }
 
 .footer{
@@ -28,4 +28,10 @@ div.color-options div{
 
 .discuss{
   float: right;
+}
+
+#first-heading{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: .2em;
+  margin-bottom: 1em;
 }
