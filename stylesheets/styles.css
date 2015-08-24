@@ -35,3 +35,7 @@ div.color-options div{
   padding-bottom: .2em;
   margin-bottom: 1em;
 }
+
+.dark-bg{
+  background-color: #333;
+}
