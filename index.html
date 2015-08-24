@@ -54,18 +54,20 @@
             </label>
           </div><br />
           <button type="reset" class="btn btn-primary btn-block">Sign in</button><br />
-          <a style="width:100%;display:block;text-align:center;border:1px solid white;" href="">Help with logging in</a>
-          <a style="width:100%;display:block;text-align:center;margin-bottom:.5em;" href="">Forgot your password?</a>
+          <a style="text-align:center; padding-bottom:2px;" href="">Help with logging in</a><br />
+          <a style="text-align:center; padding-bottom:2px;" href="">Forgot your password?</a>
         </form>
       </div>
     </div>
 
+<div class="row">
+<div class="col-md-6"></div>
       <div class="col-md-6 wrapper-form dark-bg">
 
       <h2 id="first-heading">Log in
       </h2>
 
-        <form>
+        <form style="margin-bottom:8em;">
           <div class="form-group">
             <label for="exampleInputEmail1">Username</label>
             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Username">
@@ -80,8 +82,8 @@
             </label>
           </div><br />
           <button type="reset" class="btn btn-primary btn-block">Sign in</button><br />
-          <a style="width:100%;display:block;text-align:center;border:1px solid white;" href="">Help with logging in</a>
-          <a style="width:100%;display:block;text-align:center;margin-bottom:.5em;" href="">Forgot your password?</a>
+          <a style="text-align:center; padding-bottom:2px;" href="">Help with logging in</a><br />
+          <a style="text-align:center; padding-bottom:2px;" href="">Forgot your password?</a>
         </form>
       </div>
     </div>
@@ -125,6 +127,9 @@ $(".color-options div").click(function(){
   $(".wrapper-para").css("background-color",$(this).css("background-color"))
   $("button").css("background-color",$(this).css("background-color"))
   $("button").css("border-color",$(this).css("background-color"))
+  $(".form-control:hover").css("border-color",$(this).css("background-color"))
+  $(".form-control:focus").css("shadow-color",$(this).css("background-color"))
+
 });
 
 });
