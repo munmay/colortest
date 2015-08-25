@@ -15,7 +15,7 @@
 <body>
   <div>
     <div class="row">
-      <div class="col-md-6 wrapper-form dark-bg">
+      <div class=".col-xs-12 col-md-6 wrapper-form dark-bg">
 
         <h2 id="first-heading">Log in
         </h2>
@@ -40,7 +40,7 @@
         </form>
       </div>
 
-          <div class="col-md-6 wrapper-form">
+      <div class=".col-xs-12 col-md-6 wrapper-form">
 
       <h2 id="first-heading">Log in
       </h2>
@@ -67,8 +67,7 @@
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-12 wrapper-para">
+    <div class="wrapper-para">
       <h1>
         My left donut is missing.
       </h1>
@@ -100,36 +99,35 @@
   <script>
     $(document).ready(function(){
       var colors = new Array();
+  //  colors.push('#1750B3'); Too dark
+  //  colors.push('#1F438F'); Too dark
+  //  colors.push('#1b526d'); Too dark
+  //  colors.push('#115577'); Too dark
+  //  colors.push('#114499'); Too dark
 
-      colors.push('#336699');
-      colors.push('#226699');
-      // colors.push('#114499');
-      // colors.push('#0033cc');
+      colors.push('#1F5E7D'); 
+                  // Derived from #225592 (too dark)
+      colors.push('#165891');
+      colors.push('#165c91');
+      colors.push('#144EB3');
 
-      // colors.push('#0044BB');
-      // colors.push('#1144CC');
-      
-      colors.push('#3333EE');
+      //colors.push('#336699'); Failed WCAG AAA    
+      //colors.push('#2F53BD'); Failed WCAG AAA 
+      //colors.push('#226699'); Failed WCAG AAA 
 
-
-
-
-
-// colors.push('#08216E');
-// colors.push('#1C1C8A');
-// colors.push('#347bff');
-// colors.push('#08216E');
-// colors.push('#043266');
-// colors.push('#041768');
-
-// colors.push('#26408B');
-// colors.push('#033F63');
-// colors.push('#374A67');
-// colors.push('#0B0B89');
-// colors.push('#08216E');
-// colors.push('#26408B');
-// colors.push('#140152');
-// colors.push('#0C60FA');
+      // colors.push('#08216E');
+      // colors.push('#1C1C8A');
+      // colors.push('#347bff'); Current
+      // colors.push('#08216E');
+      // colors.push('#043266');
+      // colors.push('#041768');
+      // colors.push('#26408B');
+      // colors.push('#033F63');
+      // colors.push('#374A67');
+      // colors.push('#0B0B89');
+      // colors.push('#08216E');
+      // colors.push('#26408B');
+      // colors.push('#0C60FA'); Failed WCAG AAA 
 
 
 colors.forEach(function(a){$(".color-options").append("<div style='background-color:"+a+";'></div>")});
