@@ -43,9 +43,19 @@ div.color-options div{
 
 
 a{
-    border-bottom: 1px solid transparent;
-    padding-bottom: 2px;
-    padding-left: 0;
-    padding-right: 0;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
+.p-color-gradation{
+  height: auto;
+}
+
+.text-dark{
+  color: #333;
+}
+.text-light{
+  color: #fff
+}
